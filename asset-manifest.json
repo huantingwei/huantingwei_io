@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/huantingwei_io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/huantingwei_io/static/js/main.6fa1402b.chunk.js",
+    "main.js.map": "/huantingwei_io/static/js/main.6fa1402b.chunk.js.map",
+    "runtime-main.js": "/huantingwei_io/static/js/runtime-main.bb4ffb89.js",
+    "runtime-main.js.map": "/huantingwei_io/static/js/runtime-main.bb4ffb89.js.map",
+    "static/js/2.b9cf9757.chunk.js": "/huantingwei_io/static/js/2.b9cf9757.chunk.js",
+    "static/js/2.b9cf9757.chunk.js.map": "/huantingwei_io/static/js/2.b9cf9757.chunk.js.map",
+    "index.html": "/huantingwei_io/index.html",
+    "precache-manifest.1cbdc8a4f310bfeabf8e6fcee02e335b.js": "/huantingwei_io/precache-manifest.1cbdc8a4f310bfeabf8e6fcee02e335b.js",
+    "service-worker.js": "/huantingwei_io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/huantingwei_io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b9cf9757.chunk.js.LICENSE.txt": "/huantingwei_io/static/js/2.b9cf9757.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/huantingwei_io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb4ffb89.js",
+    "static/js/2.b9cf9757.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6fa1402b.chunk.js"
+  ]
+}
