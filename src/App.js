@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TabLayout from 'components/tabLayout'
+import Home from 'containers/home'
+import About from 'containers/about'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <TabLayout tabItems={[
+            {
+                label: 'home.js',
+                content: <Home />,
+                // icon: <FormatQuoteIcon />,
+            },
+            {
+                label: 'about.py',
+                content: <About />,
+                // icon: <CodeIcon />,
+            },
+            {
+                label: 'projects.md',
+                content: <div>projects.md</div>,
+                // icon: <GitHubIcon />,
+            },
+            {
+                label: 'passion.go',
+                content: <div>passion.go</div>,
+                // icon: <SettingsEthernetIcon />,
+            },
+        ]} />
+
+    )
 }
 
 export default App;
