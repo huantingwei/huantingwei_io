@@ -5,7 +5,7 @@ import { Typography } from '@material-ui/core'
 const useStyles = makeStyles((theme) => ({
     string: {
         display: 'inline',
-        color: theme.palette.secondary.main,
+        color: theme.palette.secondary.light,
         variant: 'body1',
     }
 }));

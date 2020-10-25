@@ -15,14 +15,12 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.secondary.main,
     },
     subtitle:{
-        color: '#70db70',
+        color: theme.palette.secondary.light,
     },
     content: {
         marginTop: '0.5rem',
     },
 }));
-//
-
 
 const ListPython = (props) => {
     const classes = useStyles()

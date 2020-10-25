@@ -12,10 +12,10 @@ const useStyles = makeStyles((theme) => ({
 
 
 const R = (props) => {
-    const { children } = props
+    const { children, ...other } = props
     const classes = useStyles()
     return (
-        <Typography className={classes.reservedWord}>{children}</Typography>
+        <Typography className={classes.reservedWord} {...other}>{children}</Typography>
     )
 }
 

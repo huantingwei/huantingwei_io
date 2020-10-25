@@ -4,6 +4,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 const editorDark = '#FF252526'
 const editorLight = '#FF3E3E40'
 const yello = '#FFC34D'
+const green = '#70db70'
 
 const theme = createMuiTheme({
     palette: {
@@ -13,34 +14,35 @@ const theme = createMuiTheme({
         },
         secondary: {
             main: yello,
+            light: green,
         },
     },
-    text: {
-        primary: '#fafafa',
+text: {
+    primary: '#fafafa',
         secondary: '#ffffff',
     },
-    typography: {
-        fontFamily: [
-            '-apple-system',
-            'BlinkMacSystemFont',
-            'Consolas',
-            'Courier New',
-            'monospace',
-            '"Apple Color Emoji"',
-            '"Segoe UI Emoji"',
-            '"Segoe UI Symbol"',
-        ].join(','),
+typography: {
+    fontFamily: [
+        '-apple-system',
+        'BlinkMacSystemFont',
+        'Consolas',
+        'Courier New',
+        'monospace',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+    ].join(','),
         h1: {
-            fontSize: "2.5rem",
+        fontSize: "2.5rem",
             fontWeight: 600,
         },
-        h2: {
-            fontSize: "2rem",
+    h2: {
+        fontSize: "2rem",
         },
-        button: {
-            fontStyle: 'normal',
+    button: {
+        fontStyle: 'normal',
         },
-    },
+},
 });
 
 export default theme

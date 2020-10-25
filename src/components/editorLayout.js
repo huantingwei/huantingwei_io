@@ -9,7 +9,7 @@ const Editor = (props) => {
     return (
         // minHeight=95vh + tabLayout minHeight=5vh
         <Container maxWidth="xl"
-            style={{ color: 'white', minHeight: '94vh', width: '100vw', paddingTop: '2%' }}>
+            style={{ color: 'white', minHeight: '94vh', paddingTop: '2%' }}>
             <Grid container>
                 <Grid item container direction="column" xs={1}>
                     {lineNums.map((line, index) => {
