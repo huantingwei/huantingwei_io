@@ -10,7 +10,7 @@ import EditorBackground from 'components/editorLayout'
 const dark = '#272a2e'
 const light = '#0f1114'
 
-function TabPanel(props) {
+const TabPanel = (props) => {
     const { children, value, index, ...other } = props;
 
     return (
@@ -45,9 +45,9 @@ function tabProps(index) {
 
 const StyledTabs = withStyles({
     root: {
-        backgroundColor: dark, 
-        minHeight: '6vh', 
-        height: '6vh' 
+        backgroundColor: dark,
+        minHeight: '6vh',
+        height: '6vh'
     },
     indicator: {
         background: dark,
@@ -87,11 +87,11 @@ export default function TabLayout(props) {
         <>
             <StyledTabs value={value} onChange={handleChange} aria-label="top nav" >
                 {tabItems.map((item, index) => {
-                    return <StyledTab label={item.label} {...tabProps(index)} />
+                    return <StyledTab key={item.label} label={item.label} {...tabProps(index)} />
                 })}
             </StyledTabs>
             {tabItems.map((item, index) => {
-                return (<TabPanel value={value} index={index}>
+                return (<TabPanel key={item.id} value={value} index={index}>
                     {item.content}
                 </TabPanel>)
             })}

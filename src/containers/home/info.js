@@ -8,11 +8,11 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 const Info = (props) => {
     return (
         <Grid container direction="column" alignItems="center">
-            <Grid item style={{ marginBottom: "1vh" }}>
-                <Typography variant="h3">Ting</Typography>
+            <Grid item style={{ marginBottom: "1rem" }}>
+                <Typography variant="h1">Ting</Typography>
             </Grid>
-            <Grid item>
-                <Typography variant="h5">Wei Huan Ting 韋煥庭</Typography>
+            <Grid item style={{ padding: "0 1rem" }}>
+                <Typography variant="h2">Wei Huan Ting 韋煥庭</Typography>
             </Grid>
             <Grid item>
                 <List aria-label="contact info">
@@ -26,7 +26,7 @@ const Info = (props) => {
                         <ListItemIcon>
                             <GithubIcon color="secondary" />
                         </ListItemIcon>
-                        <ListItemText primary="See what I am up to" />
+                        <ListItemText primary="See what I'm up to" />
                     </ListItem>
                     <ListItem button component="a" href="https://www.linkedin.com/in/huan-ting-wei-01826a151/">
                         <ListItemIcon>
